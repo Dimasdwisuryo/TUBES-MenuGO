@@ -4,6 +4,8 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,11 +14,24 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+        // Buat Admin MenuGO
+        User::updateOrCreate(
+            ['email' => 'admin@menugo.com'],
+            [
+                'name' => 'Admin MenuGO',
+                'password' => Hash::make('adminn123'),
+                'role' => 'admin_menugo',
+            ]
+        );
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        // Buat Owner UMKM
+        User::updateOrCreate(
+            ['email' => 'owner@menugo.com'],
+            [
+                'name' => 'Owner Bebek Setiawan',
+                'password' => Hash::make('ownerumkm123'),
+                'role' => 'owner_umkm',
+            ]
+        );
     }
 }

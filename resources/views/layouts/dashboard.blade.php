@@ -104,20 +104,20 @@
 
     <section class="py-5 my-5">
         <div class="container text-center">
-            <h2 class="fw-bold mb-5">Mengapa Memilih MenuGO?</h2>
+            <h2 class="fw-bold mb-5">Kenapa Harus Jual Beli di Aplikasi MenuGO?</h2>
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="feature-card h-100">
                         <div class="icon-box mx-auto"><i class="bi bi-speedometer2"></i></div>
-                        <h4 class="fw-bold">Manajemen Cepat</h4>
-                        <p class="text-muted">Input menu dan kategori hanya dalam hitungan detik. Mudah dioperasikan bahkan oleh pemula.</p>
+                        <h4 class="fw-bold">Pendaftaran Sangat Mudah</h4>
+                        <p class="text-muted">Daftarkan usaha kuliner Anda secara online dengan cepat. Kelola profil toko dan bangun identitas digital UMKM Anda di sini.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-card h-100">
                         <div class="icon-box mx-auto"><i class="bi bi-phone"></i></div>
-                        <h4 class="fw-bold">Tampilan Responsif</h4>
-                        <p class="text-muted">Akses dashboard admin dan daftar menu dari perangkat apa pun, kapan pun, dan di mana pun.</p>
+                        <h4 class="fw-bold">Manajemen Menu Digital</h4>
+                        <p class="text-muted">Kelola daftar menu makanan dan minuman secara real-time. Tambah, ubah, atau hapus item menu melalui dashboard yang mudah digunakan.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
